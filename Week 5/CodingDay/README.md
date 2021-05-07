@@ -14,7 +14,7 @@ Coding Day 2021-1 / Powercoders Switzerland bootcamp
 5. Commit every exercise to your local repo, **NOT** Github.
 
 
-**At the end of the morning at 12.30 pm sharp push your whole repo to Github and upload the codingDay exercises as a zip to the Google Classroom assignment. Please include your name in the repo name.**
+**At the end of the morning at 12.30 pm sharp push your whole repo to Github and upload the codingDay exercises as a zip to the Google Classroom assignment. If you work with repl, you can send the repl links to the Google Classroom assignment instead of the zip. Please include your name in the repo name.**
 
 
 Morning points: 195 <br>
