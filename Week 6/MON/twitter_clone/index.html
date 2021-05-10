@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My password protected todo list</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>My very own Twitter clone</h1>  
+  <nav>
+      <ul>
+          <li><a href="#register">Sign up</a></li>
+          <li><a href="#login">Log in</a></li>
+      </ul>
+  </nav>
+  <main>
+    <article id="register">
+        <form action="#login" method="post">
+            <legend>Sign up</legend>
+            <label for="mail">Email address</label>
+            <input type="email" id="mail" name="mail" required>
+            <label for="usr">Username</label>
+            <input type="text" id="usr" name="usr" required>
+            <label for="pwd">Password</label>
+            <input type="password" id="pwd" name="pw" required>
+            <button type="submit">sign up</button>
+        </form>
+    </article>
+
+    <article id="login">
+        <form action="#loggedIn" method="post">
+            <legend>Log in</legend>
+            <label for="usr">Username</label>
+            <input type="text" id="usr" name="usr" required>
+            <label for="pwd">Password</label>
+            <input type="password" id="pwd" name="pw" required>
+            <button type="submit">log in</button>
+        </form>
+    </article>
+
+    <article id="loggedIn">        
+        <h2>My Posts</h2>
+        <ul></ul>
+        <form action="#loggedIn" method="post">
+            <legend>New post</legend>
+            <label for="post_title">Title</label>
+            <input type="text" id="post_title" name="post_title" required>
+            <label for="post_text">Text</label>
+            <textarea id="post_text" name="post_text" required></textarea>
+            <button type="submit">add post</button>
+        </form>
+    </article>
+  </main>
+  <script src="scripts.js"></script>
+</body>
+</html>
